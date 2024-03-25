@@ -4,16 +4,18 @@ window:
   dynamic_title: true
 
 font:
-  normal: { family = "Inconsolata", style = "Regular" }
-  size: 16
+  normal:
+    family: JetBrains Mono
+    style: Regular
+  size: 15
   bold:
-    family: Menlo
+    family: JetBrains Mono
     style: Bold
   italic:
-    family: Menlo
+    family: JetBrains Mono
     style: Italic
   bold_italic:
-    family: Menlo
+    family: JetBrains Mono
     style: Bold Italic
 
 
