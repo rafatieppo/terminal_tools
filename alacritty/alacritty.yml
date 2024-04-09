@@ -1,7 +1,10 @@
 # create in /home/rafatieppo/.config/alacritty/alacritty.yml
 window:
-  # title: Term-Alacritty
-  dynamic_title: true
+  title: Terminal-Alacritty
+  # dynamic_title: true
+  padding:
+    x: 6
+    y: 6
 
 font:
   normal:
