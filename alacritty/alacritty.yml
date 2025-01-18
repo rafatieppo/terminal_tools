@@ -1,26 +1,24 @@
 # create in /home/rafatieppo/.config/alacritty/alacritty.yml
 window:
-  title: Terminal-Alacritty
-  # dynamic_title: true
-  padding:
-    x: 6
-    y: 6
+  # title: Term-Alacritty
+  dynamic_title: true
 
 font:
-  normal:
-    family: JetBrains Mono
-    style: Regular
-  size: 15
+  normal: { family = "Inconsolata", style = "Regular" }
+  size: 16
   bold:
-    family: JetBrains Mono
+    family: Menlo
     style: Bold
   italic:
-    family: JetBrains Mono
+    family: Menlo
     style: Italic
   bold_italic:
-    family: JetBrains Mono
+    family: Menlo
     style: Bold Italic
 
+shell:
+  program: /usr/bin/tmux
+#  program: /bin/zsh
 
 # bell:
 #   animation: "EaseOutExpo"

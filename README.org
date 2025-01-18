@@ -5,15 +5,13 @@
 
 Alacritty - A fast, cross-platform, OpenGL terminal emulator. **Basic alacritty config**
 
-Create a config file in: ~/home/rafatieppo/.config/alacritty/alacritty.yml~
-
 Create a config file in: =/home/rafatieppo/.config/alacritty/alacritty.yml=
 
 * folder tmux
 
 Basic tmux config.
 
-Create a config file in ~/home/rafatieppo/.tmux.conf~
+Create a config file in =/home/rafatieppo/.tmux.conf=
 
 ** Terminal palette
 
@@ -39,3 +37,49 @@ Create a config file in ~/home/rafatieppo/.tmux.conf~
 + Ctrl+B : — Enter the command line to type commands. Tab completion is available.
 + Ctrl+B ? — View all keybindings. Press Q to exit.
 + Ctrl+B W — Open a panel to navigate across windows in multiple sessions.
+
+* folder zsh_ohmy
+
+The default =shell= is :
+
+#+begin_src
+  rafatieppo@rt-avl52:~$ echo $SHELL
+  /bin/bash
+#+end_src
+
+Basic zsh and Oh My Zsh from: =https://wiki.debian.org/Zsh=
+  
+1. Create a config file in =/home/rafatieppo/.zshrc= (There is a basic sample in the folder)
+2. =apt install zsh zplug=
+3. To start =zsh= in terminal: =zsh= 
+4. You can use the alias included in the config file: =source $HOME/.zshrc=
+
+** Zplug management
+
+You can check your current plugins, update them, or install new ones. Use the following options with zplug command.
+
+=zplug <option>=
+
+#+begin_src 
+    check -- Return true if all packages are installed, false otherwise
+    clean -- Remove repositories which are no longer managed
+    clear -- Remove the cache file
+    env -- [User-defined] The environment variables of zplug
+    info -- Show the information such as the source URL and tag values for the given package
+    install -- Install packages in parallel
+    list -- List installed packages (more specifically, view the associative array $zplugs)
+    load -- Source installed plugins and add installed commands to $PATH
+    status -- Check if the remote repositories are up to date
+    update -- Update installed packages in parallel 
+#+end_src
+
+** Resourcers
+
+Link to install, plugins and fonts:
+https://ohmyz.sh/#install 
+https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df
+https://www.nerdfonts.com/font-downloads
+https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+Previews dos temas presentes:
+https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
