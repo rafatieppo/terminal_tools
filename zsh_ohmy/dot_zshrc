@@ -53,9 +53,11 @@ zplug "zsh-users/zsh-completions"
 # zplug "junegunn/fzf"
 # zplug "themes/robbyrussell", from:oh-my-zsh, as:theme   # Theme
 # zplug "themes/apple", from:oh-my-zsh, as:theme   # Theme
+zplug "themes/bira", from:oh-my-zsh, as:theme   # Theme
 # zplug "themes/darkblood", from:oh-my-zsh, as:theme   # Theme
 # zplug "themes/lukerandall", from:oh-my-zsh, as:theme   # Theme
-zplug "themes/blinks", from:oh-my-zsh, as:theme   # Theme
+# zplug "themes/blinks", from:oh-my-zsh, as:theme   # Theme
+# zplug "themes/candy", from:oh-my-zsh, as:theme   # Theme
 
 # zplug - install/load new plugins when zsh is started or reloaded
 if ! zplug check --verbose; then
