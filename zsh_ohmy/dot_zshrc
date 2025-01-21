@@ -18,6 +18,12 @@ prompt bart
 # ZSH_THEME="apple"
 # ZSH_THEME="darkblood"
 # ZSH_THEME="robbyrussell"
+# ZSH_THEME="Lukerandall"
+
+#ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_no_bold[cyan]%}[🏑 git %{$FG[208]%}"
+#ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%} "  
+#ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg_no_bold[cyan]%}] 💾"   
+#ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg_no_bold[cyan]%}]"
 
 # Use vi keybindings even if our EDITOR is set to vi
 # bindkey -e
@@ -45,9 +51,11 @@ zplug "zsh-users/zsh-autosuggestions"
 # zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-completions"
 # zplug "junegunn/fzf"
-zplug "themes/robbyrussell", from:oh-my-zsh, as:theme   # Theme
+# zplug "themes/robbyrussell", from:oh-my-zsh, as:theme   # Theme
 # zplug "themes/apple", from:oh-my-zsh, as:theme   # Theme
-zplug "themes/darkblood", from:oh-my-zsh, as:theme   # Theme
+# zplug "themes/darkblood", from:oh-my-zsh, as:theme   # Theme
+# zplug "themes/lukerandall", from:oh-my-zsh, as:theme   # Theme
+zplug "themes/blinks", from:oh-my-zsh, as:theme   # Theme
 
 # zplug - install/load new plugins when zsh is started or reloaded
 if ! zplug check --verbose; then
