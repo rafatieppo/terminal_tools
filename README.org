@@ -40,6 +40,13 @@ Create a config file in =/home/rafatieppo/.tmux.conf=
 
 * folder zsh_ohmy
 
+To install `zsh`:
+
+#+begin_src
+  apt install zsh
+  apt instak zplug
+#+end_src
+
 The default =shell= is :
 
 #+begin_src
