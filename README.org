@@ -1,17 +1,32 @@
 #+TITLE: Config files for terminal
 
+* Automatic config
+
+It is possible run =terminal_tools_install.sh= to:
+
+1. Copy config files to Tmux
+2. Copy config files to Alacratty
+3. Install =zsh= shell
+
+*NOTE*: Make sure that =tmux= and =Alacratty= are installed.
+
+Or follow the instructions to make a manual configuration as follow:
 
 * folder alacritty
 
-Alacritty - A fast, cross-platform, OpenGL terminal emulator. **Basic alacritty config**
+Alacritty - A fast, cross-platform, OpenGL terminal emulator.
 
-Create a config file in: =/home/rafatieppo/.config/alacritty/alacritty.yml=
+**Basic alacritty config**:
+
+Create a config file in: =$HOME/.config/alacritty/alacritty.toml= . There is template in =alacritty= folder.
 
 * folder tmux
 
 Basic tmux config.
 
 Create a config file in =/home/rafatieppo/.tmux.conf=
+
+There is template in =tmux= folder.
 
 ** Terminal palette
 
@@ -44,7 +59,7 @@ To install `zsh`:
 
 #+begin_src
   apt install zsh
-  apt instak zplug
+  apt install zplug
 #+end_src
 
 The default =shell= is :
